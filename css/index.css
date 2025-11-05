@@ -1,7 +1,10 @@
-body {
-    background-color: #312e2e;
-    margin: 0;
-    padding: 0;
+
+body, html{
+  min-height: 100vh;
+  height: 100%;
+  background-color: #363232;
+  margin: 0;
+  padding: 0;
 }
 .buton {
     background-color: #312e2e;
