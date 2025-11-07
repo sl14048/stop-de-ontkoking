@@ -1,104 +1,108 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>Stop de Ontkoking</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <script src="node_modules/bootstrap/js/src/base-component.js" defer></script>
 </head>
 <body>
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Stop de ontkoking</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">dropdown<span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="#overzicht">Overzicht</a></li>
-          <li><a href="#">Eigen recepten</a></li>
-          <li><a href="#">Page 1-3</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Page 2</a></li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-    </ul>
-  </div>
-</nav>
-  <div id="vio">
-        <iframe id="homevid"
--        src="https://www.youtube.com/embed/9c8xoqhLh3U?si=JikVaiNUN2t5pawT&amp;controls=0&autoplay=1&muted=1" 
-+        src="https://www.youtube.com/embed/9c8xoqhLh3U?si=JikVaiNUN2t5pawT&amp;controls=0&amp;autoplay=1&amp;mute=1" 
-         title="YouTube video player" 
-         frameborder="0" 
--        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" loop autoplay muted referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" loop referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-    </iframe>
-    </div>
-    
+  <!-- nav -->
+  <header>
     <div>
-      <h3>Ons visie</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, enim. Perspiciatis nam soluta maxime incidunt ullam veritatis sapiente illum, cumque, magnam delectus, sunt suscipit provident neque illo laboriosam tempora amet. Asperiores quaerat perferendis omnis corrupti explicabo enim nisi expedita, amet odio hic laboriosam delectus! Nemo perspiciatis cum aliquam, aut tempore provident, quaerat non placeat odit enim harum possimus, quisquam ducimus delectus et in culpa consectetur. Veniam molestias velit illum quibusdam ducimus repudiandae adipisci illo officia laudantium optio facilis perspiciatis est ipsum ullam, accusantium fugit? Cumque quod inventore porro, vitae iste beatae corporis harum numquam eius suscipit eaque at deleniti cum non praesentium! Culpa rerum aut explicabo fugit optio voluptatibus sed suscipit, saepe consectetur sequi nostrum, temporibus cupiditate. Dicta harum nostrum numquam repellat illum consectetur consequuntur, eveniet provident id ipsa commodi minus ab eius soluta alias? Reiciendis dolorem rerum quasi in omnis esse aut, similique obcaecati ipsa commodi a inventore atque alias est maxime voluptatibus cupiditate aliquam eveniet nulla delectus blanditiis quis nostrum libero. Laudantium et temporibus tempora perspiciatis eius ipsam delectus quasi eum, quia qui veniam eaque maxime voluptates nam praesentium corrupti, aut quod excepturi esse eligendi at eveniet facilis necessitatibus. Quas amet reprehenderit saepe dolore obcaecati esse, dolorem nisi hic voluptatum, delectus voluptas eaque eligendi nam nostrum. Consequuntur eum vitae porro commodi recusandae quaerat nesciunt magni, libero non, quod dolores obcaecati necessitatibus.</p>
+      <div class="logo">Stop de Ontkoking</div>
+      <nav>
+        <ul>
+          <li><a href="#missie">missie</a></li>
+          <li><a href="#populair6">populaire gerechten</a></li>
+        </ul>
+      </nav>
+      <div class="signup">
+        <a class="" href="signup.html">sign up</a>
+        <a class="" href="login.html">login</a>
+      </div>
     </div>
-    <section class="section1" id="Overzicht">
+  </header>
+  <!-- video -->
+  <div class="vio">
+    <iframe
+      src="https://www.youtube.com/embed/DoRSCsrKbq8?si=s3YOjwnrOnZ1hlZt&amp;controls=0&amp;start=4;autoplay=1&amp;loop=1&amp;mute=1&amp;" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin">
+    </iframe>
+  </div>
+  <!-- onze missie / waarom stop met ontkoking -->
+  <section class="missi" id="missie">
+    <h2>Ons missie</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi cumque esse dolorum modi sit alias, quas assumenda a omnis saepe quibusdam ut consequuntur. Autem sunt alias consequuntur. Quia ex obcaecati quas itaque tenetur cum consequuntur cupiditate doloribus architecto laborum laboriosam, adipisci dolorem possimus repellendus, mollitia et quaerat eos corporis dolore?</p>
+  </section>
+  <!-- populaire gerechten preview -->
+  <section class="populair6" id="populair6">
   <h2>Populaire gerechten</h2>
+
   <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="media/300.png" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">1</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <h5 class="card-title">yummy 0</h5>
+    <p class="card-text">Deze gerecht is blah blah</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
- </div>
-   <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">2</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div></div>
+  </div>
+
   <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="media/300.png" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">3</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <h5 class="card-title">yummy 0</h5>
+    <p class="card-text">Deze gerecht is blah blah</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
-</div>
-<div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  </div>
+
+  <div class="card" style="width: 18rem;">
+  <img src="media/300.png" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">4</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <h5 class="card-title">yummy 0</h5>
+    <p class="card-text">Deze gerecht is blah blah</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
-</div>
-<div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  </div>
+
+  <div class="card" style="width: 18rem;">
+  <img src="media/300.png" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">5</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <h5 class="card-title">yummy 0</h5>
+    <p class="card-text">Deze gerecht is blah blah</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
-</div>
-<div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+
+  </div>
+  <div class="card" style="width: 18rem;">
+  <img src="media/300.png" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">6</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <h5 class="card-title">yummy 0</h5>
+    <p class="card-text">Deze gerecht is blah blah</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
-</div>
-<div id="verder">Ontdenk meer!</div>
+  </div>
+  <div class="card" style="width: 18rem;">
+  <img src="media/300.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">yummy 0</h5>
+    <p class="card-text">Deze gerecht is blah blah</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+  </div>
+  <!-- naar overzivcht pagina -->
+  <button type="button" class="btn btn-secondary btn-lg">Ontdek meer!</button>
 </section>
+  <!-- footer -->
 <div>
 <footer class="container-fluid text-center">
-  <p>Footer Text</p>
+  <p>footer tba</p>
 </div>
 </body>
 </html>
