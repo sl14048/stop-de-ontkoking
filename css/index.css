@@ -18,14 +18,13 @@ header {
   margin-bottom: 20px;
 }
 
-.nav-container {
+.nav-container { 
   max-width: 1200px;
   margin: 0 auto;
   padding: 1.2rem 1.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
 }
 
 .logo {
@@ -50,6 +49,8 @@ header {
   text-decoration: none;
   font-size: larger;
   padding-top: 20px;
+  align-items: center;
+  gap: 1rem;
 }
 #butons li a {
   background-color: transparent;
@@ -74,7 +75,8 @@ nav ul {
 
 .signup {
   display: flex;
-  gap: 0.75rem;
+  align-items: center;
+  gap: 1rem;
 }
 .signup a {
   padding: 0.55rem 1.1rem;
