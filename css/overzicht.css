@@ -7,7 +7,6 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: rgb(70, 86, 38);   
   color: #333;
   padding: 0px;
 }
@@ -175,8 +174,9 @@ p {
   display: none;
   position: absolute;
   background-color: #f6f6f6;
-  min-width: 230px;
-  overflow: auto;
+  /* helppp why is dont make a scroll :( */
+  height: 30px;
+  overflow: hidden;
   border: 1px solid #ddd;
   z-index: 1;
 }
