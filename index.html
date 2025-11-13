@@ -6,19 +6,20 @@
   <title>Stop de Ontkoking</title>
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <script src="js/index.js" defer></script>
   <script src="node_modules/bootstrap/js/src/base-component.js" defer></script>
 </head>
 <body>
   <!-- nav -->
   <header>
     <div class="nav-container">
-      <div class="logo">Stop de Ontkoking</div> 
+      <div class="logo"><a href="index.html">Stop De Ontkoking</a></div> 
       <!-- MAAK LINK pls -->
       <nav>
         <ul id="butons">
           <li><a href="#missie">Missie</a></li>
           <li><a href="#populair6">Populaire gerechten</a></li>
-          <li><a href="">Over ons</a></li>
+          <li><a href="overons.html">Over ons</a></li>
         </ul>
       </nav>
       <div class="signup">
@@ -28,14 +29,8 @@
     </div>
   </header>
   <!-- video -->
-  <div class="vio">
-    <iframe
-      src="https://www.youtube.com/embed/DoRSCsrKbq8?si=s3YOjwnrOnZ1hlZt&amp;controls=0&amp;start=4;autoplay=1&amp;loop=1&amp;mute=1&amp;" 
-      title="YouTube video player" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-      referrerpolicy="strict-origin-when-cross-origin">
-    </iframe>
+  <div id="vio">
+    <iframe width="1785" height="900" src="https://www.youtube.com/embed/DoRSCsrKbq8?si=PA70d6GJaIcp3gY8&amp;controls=0&amp;start=4&autoplay=1;muted=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <!-- onze missie / waarom stop met ontkoking -->
   <section class="missi" id="missie">
@@ -45,59 +40,78 @@
   <!-- populaire gerechten preview -->
   <section class="populair6" id="populair6">
   <h2>Populaire gerechten</h2>
+  <div class="container mt-4">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="media/300.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">yummy 0</h5>
+          <p class="card-text">Deze gerecht is blah blah</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
 
-  <div class="card" style="width: 18rem;">
-  <img src="media/300.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">yummy 0</h5>
-    <p class="card-text">Deze gerecht is blah blah</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="media/300.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">yummy 1</h5>
+          <p class="card-text">Deze gerecht is blah blah</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="media/300.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">yummy 2</h5>
+          <p class="card-text">Deze gerecht is blah blah</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="card" style="width: 18rem;">
-  <img src="media/300.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">yummy 0</h5>
-    <p class="card-text">Deze gerecht is blah blah</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-  </div>
+  <div class="row mt-4">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="media/300.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">yummy 3</h5>
+          <p class="card-text">Deze gerecht is blah blah</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
 
-  <div class="card" style="width: 18rem;">
-  <img src="media/300.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">yummy 0</h5>
-    <p class="card-text">Deze gerecht is blah blah</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-  </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="media/300.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">yummy 4</h5>
+          <p class="card-text">Deze gerecht is blah blah</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
 
-  <div class="card" style="width: 18rem;">
-  <img src="media/300.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">yummy 0</h5>
-    <p class="card-text">Deze gerecht is blah blah</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="media/300.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">yummy 5</h5>
+          <p class="card-text">Deze gerecht is blah blah</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
 
-  </div>
-  <div class="card" style="width: 18rem;">
-  <img src="media/300.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">yummy 0</h5>
-    <p class="card-text">Deze gerecht is blah blah</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-  </div>
-  <div class="card" style="width: 18rem;">
-  <img src="media/300.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">yummy 0</h5>
-    <p class="card-text">Deze gerecht is blah blah</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-  </div>
   <!-- naar overzivcht pagina -->
   <button type="button" class="btn btn-secondary btn-lg">Ontdek meer!</button>
 </section>
@@ -105,6 +119,8 @@
 <div>
 <footer class="container-fluid text-center">
   <p>footer tba</p>
+</footer>
 </div>
+<p>meow</p>
 </body>
 </html>
