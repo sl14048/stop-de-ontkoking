@@ -7,6 +7,7 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  background-color: #faf0f0;   
   color: #333;
   padding: 0px;
 }
@@ -111,33 +112,6 @@ nav ul {
   background-color: #ffffff;
   color: #fcd7d7;
 }
-.vio {
-  display: flex;
-  padding: 0;
-}
-#vio iframe {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  padding: 0;
-}
-#mison {
-  background-color: rgb(218, 172, 180);
-}
-#mison h2 {
-  text-align: center;
-  font: montserrat, sans-serif;
-}
-#mison p {
-  padding: 15px 15px 15px 15px;
-
-}
-p {
-  margin: 15px 15px 15px 15px;
-  text-align: center;
-  font: open-sans, sans-serif;
-}
-/* overzicht */
 .dropbtn {
   background-color: #f0cbf5;
   color: white;
@@ -174,9 +148,8 @@ p {
   display: none;
   position: absolute;
   background-color: #f6f6f6;
-  /* helppp why is dont make a scroll :( */
-  height: 30px;
-  overflow: hidden;
+  min-width: 230px;
+  overflow: auto;
   border: 1px solid #ddd;
   z-index: 1;
 }
@@ -191,3 +164,4 @@ p {
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
+

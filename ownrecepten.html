@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eigen recepten</title>
     <link rel="stylesheet" href=node_modules/bootstrap/dist/css/bootstrap.min.css>
+    <link rel="stylesheet" href="css/eigenrecpt.css">
 </head>
 <body>
-      <header>
+    <header>
     <div class="nav-container">
       <div class="logo"><a href="index.html">Stop De Ontkoking</a></div> 
       <nav>
@@ -23,16 +24,18 @@
       </div>
     </div>
   </header>
-  <div>
+  <div class="form">
     <h2>Voeg je eigen recept!</h2>
     <form action="">
-        <label for="receptnaam">Recept naam:</label><br>
-        <input type="text" id="receptnaam" name="receptnaam"><br>
-        <label for="ingrediënten">Ingrediënten:</label><br>
-        <textarea id="ingrediënten" name="ingrediënten" rows="4" cols="50"></textarea><br>
-        <label for="instructies">Instructies:</label><br>
-        <textarea id="instructies" name="instructies" rows="4" cols="50"></textarea><br><br>
-        <input type="submit" value="Verzenden">
+      <label for="receptnaam">Recept naam:</label>
+      <input type="text" id="receptnaam" name="receptnaam">
+      <label for="ingrediënten">Ingrediënten:</label>
+      <textarea id="ingrediënten" name="ingrediënten" rows="4" cols="50"></textarea><br>
+      <label for="instructies">Instructies:</label>
+      <textarea id="instructies" name="instructies" rows="4" cols="50"></textarea><br>
+      <label for="foto">Voeg een foto van de eten</label>
+      <input type="file" id="foto" name="foto" accept="image/*"><br><br>
+      <input type="submit" value="Verzenden">
     </form>
   </div>
 </body>
