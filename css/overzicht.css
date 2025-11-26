@@ -7,7 +7,7 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #faf0f0;   
+  background-color:#f5e1dc; 
   color: #333;
   padding: 0px;
 }
@@ -20,7 +20,7 @@ h2 {
 }
 
 header {
-  background: #fcd7d7;
+  background: #7c2727;
   padding: 0, 0;
 }
 
@@ -37,7 +37,7 @@ header {
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 0.05em;
-  color: #FAF9F6;
+  color: #faf6f7;
   text-decoration: none;
   font-family: montserrat, sans-serif;
 }
@@ -95,21 +95,21 @@ nav ul {
   text-decoration: none;
 }
 .signup .sign {
-  background-color: #ffffff;
+  background-color: #a14c4c;
   color: #fcd7d7;
   border: 2px solid #fcd7d7;
 }
 .signup .sign:hover {
-  background-color: #fcd7d7;
+  background-color: #642323;
   color: #ffffff;
 }
 .signup .log {
-  background-color: #fcd7d7;
+  background-color: #642323;
   color: #ffffff;
   border: 2px solid #ffffff;
 }
 .signup .log:hover {
-  background-color: #ffffff;
+  background-color: #a14c4c;
   color: #fcd7d7;
 }
 .dropbtn {
@@ -176,11 +176,21 @@ nav ul {
 #toevoeg .btn {
     position: absolute;
     left: 0;
-    background: #da6c9f;
+    background: #440707;
     color: white;
     padding: 10px 16px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
     margin-left: 5px;
+}
+footer {
+  background-color: #a84343;
+  padding: 20px 0 20px 0;
+  margin-top: 20px;
+}
+footer p, footer a {
+  color: #333;
+  text-align: center;
+  font-family: open-sans, sans-serif;
 }

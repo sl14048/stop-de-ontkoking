@@ -7,7 +7,7 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #faf0f0;   
+  background-color:#f5e1dc; 
   color: #333;
   padding: 0px;
 }
@@ -20,7 +20,7 @@ h2 {
 }
 
 header {
-  background: #fcd7d7;
+  background: #7c2727;
   padding: 0, 0;
 }
 
@@ -37,7 +37,7 @@ header {
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 0.05em;
-  color: #FAF9F6;
+  color: #faf6f7;
   text-decoration: none;
   font-family: montserrat, sans-serif;
 }
@@ -95,28 +95,28 @@ nav ul {
   text-decoration: none;
 }
 .signup .sign {
-  background-color: #ffffff;
+  background-color: #a14c4c;
   color: #fcd7d7;
   border: 2px solid #fcd7d7;
 }
 .signup .sign:hover {
-  background-color: #fcd7d7;
+  background-color: #642323;
   color: #ffffff;
 }
 .signup .log {
-  background-color: #fcd7d7;
+  background-color: #642323;
   color: #ffffff;
   border: 2px solid #ffffff;
 }
 .signup .log:hover {
-  background-color: #ffffff;
+  background-color: #a14c4c;
   color: #fcd7d7;
 }
 #card {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #f0d4d4;
+  background-color: #a76b6b;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(32, 8, 8, 0.1);
 }
@@ -143,12 +143,12 @@ nav ul {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #f0d4d4;
+  background-color: #a76b6b;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(32, 8, 8, 0.1);
 }
 footer {
-  background-color: #fcd7d7;
+  background-color: #a84343;
   padding: 20px 0 20px 0;
   margin-top: 20px;
 }
@@ -163,7 +163,7 @@ footer p, footer a {
   padding: 20px 0 20px 0;
 }
 button {
-  background-color: #ecbbbb;
+  background-color: #660808;
   border: none;
   padding: 15px 30px 15px 30px;
   border-radius: 10px;
@@ -171,9 +171,9 @@ button {
 }
 button a {
   text-decoration: none;
-  color: #333;
+  color: #f3cece;
 }
 button:hover {
-  background-color: #fcd7d7;
+  background-color: #380f0f;
   cursor: pointer;
 }
