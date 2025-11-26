@@ -112,75 +112,26 @@ nav ul {
   background-color: #ffffff;
   color: #fcd7d7;
 }
-.dropbtn {
-  background-color: #f0cbf5;
-  color: white;
-  padding: 10px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+footer {
+  background-color: #fcd7d7;
+  padding: 20px 0 20px 0;
+  margin-top: 20px;
 }
-
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #fa9eff;
+footer p, footer a {
+  color: #333;
+  text-align: center;
+  font-family: open-sans, sans-serif;
 }
-
-#myInput {
-  box-sizing: border-box;
-  background-image: url('searchicon.png');
-  background-position: 14px 12px;
-  background-repeat: no-repeat;
-  font-size: 16px;
-  padding: 14px 20px 12px 45px;
-  border: none;
-  border-bottom: 1px solid #ddd;
+.persoonlijk {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
 }
-
-#myInput:focus {outline: 3px solid #ddd;}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f6f6f6;
-  min-width: 230px;
-  overflow: auto;
-  border: 1px solid #ddd;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown a:hover {background-color: #ddd;}
-.show {display: block;}
-
-#toevoeg {
-    display: flex;
-    align-items: center;
-    justify-content: center;   
-    gap: 20px;
-    position: relative;
-    margin: 20px 0;
-}
-
-#toevoeg .btn {
-    position: absolute;
-    left: 0;
-    background: #da6c9f;
-    color: white;
-    padding: 10px 16px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    margin-left: 5px;
+#details {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0d4d4;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(32, 8, 8, 0.1);
 }
