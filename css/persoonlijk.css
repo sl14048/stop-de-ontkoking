@@ -128,10 +128,61 @@ footer p, footer a {
   padding: 0 20px;
 }
 #details {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0d4d4;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(32, 8, 8, 0.1);
+}
+#recept {
+  display: flex;
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
   background-color: #f0d4d4;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(32, 8, 8, 0.1);
+}
+#recept img {
+  width: 300px;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+#textinfo {
+  margin-top: 75px;
+  margin-left: 20px;
+  font-family: 'Open Sans', sans-serif;
+  align-items: center;
+  gap: 1rem;
+}
+#textinfo a {
+  padding: 0.55rem 1.1rem;
+  border-radius: 999px;
+  font-weight: 600;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  text-decoration: none;
+}
+#textinfo .delete {
+  background-color: #ffffff;
+  color: #fcd7d7;
+  border: 2px solid #fcd7d7;
+}
+#textinfo .delete:hover {
+  background-color: #fcd7d7;
+  color: #ffffff;
+}
+#textinfo .edit {
+  background-color: #fcd7d7;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+#textinfo .edit:hover {
+  background-color: #ffffff;
+  color: #fcd7d7;
+}
+h1{
+  text-align: center;
+  font-family: montserrat, sans-serif;
 }
