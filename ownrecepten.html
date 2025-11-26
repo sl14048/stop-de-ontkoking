@@ -19,7 +19,7 @@
         </ul>
       </nav>
       <div class="signup">
-        <a class="sign" href="signup.html">sign up</a>
+        <a class="sign" href="signin.html">sign up</a>
         <a class="log" href="login.html">login</a>
       </div>
     </div>
@@ -29,13 +29,22 @@
     <form action="">
       <label for="receptnaam">Recept naam:</label>
       <input type="text" id="receptnaam" name="receptnaam">
-      <label for="ingrediënten">Ingrediënten:</label>
+      <label for="ingrediënten">Omschrijving:</label>
       <textarea id="ingrediënten" name="ingrediënten" rows="4" cols="50"></textarea><br>
-      <label for="instructies">Instructies:</label>
+      <label for="instructies">Recept:</label>
       <textarea id="instructies" name="instructies" rows="4" cols="50"></textarea><br>
+      <label for="duur">Duur:</label>
+      <input type="time" id="duur" name="duur"><br><br>
+      <label for="gerecht">Type Gerecht</label>
+      <select id="gerecht" name="gerecht">
+        <option value="ontbijt">Ontbijt</option>
+        <option value="lunch">Lunch</option>
+        <option value="diner">Diner</option>
+        <option value="bakkerij">Bakkerij</option>
+      </select><br><br>
       <label for="foto">Voeg een foto van de eten</label>
       <input type="file" id="foto" name="foto" accept="image/*"><br><br>
-      <input type="submit" value="Verzenden">
+      <input type="submit" value="Deel reccept!">
     </form>
   </div>
 </body>

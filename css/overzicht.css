@@ -165,3 +165,23 @@ nav ul {
 
 .show {display: block;}
 
+#toevoeg {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    gap: 20px;
+    position: relative;
+    margin: 20px 0;
+}
+
+#toevoeg .btn {
+    position: absolute;
+    left: 0;
+    background: #da6c9f;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+}

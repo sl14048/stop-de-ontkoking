@@ -17,6 +17,8 @@ h2 {
   justify-content: center;
   color: #333;
   font: open-sans, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 header {
@@ -125,7 +127,7 @@ label {
   margin-bottom: 5px;
   color: #555;
 }
-input[type="text"], input[type="email"], input[type="password"], input[type="file"], textarea {
+input[type="text"], input[type="email"], input[type="password"], input[type="file"], textarea, select, input{
   width: 100%;
   padding: 8px;
   margin-bottom: 15px;
@@ -133,8 +135,8 @@ input[type="text"], input[type="email"], input[type="password"], input[type="fil
   border-radius: 4px;
   box-sizing: border-box;
 }
-button {
-  background-color: #aecae9;
+/* button {
+  background-color: #e9aedf;
   color: white;
   border: none;
   border-radius: 4px;
@@ -155,4 +157,23 @@ a {
 }
 a:hover {
   text-decoration: underline;
+} */
+input[type="submit"] {
+  background-color: #e9aedf;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px;
+  align-items: center;
+  font-size: 16px;
+}
+input[type="submit"]:hover {
+  background-color: #9c6994;
+}
+.goback {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  
 }

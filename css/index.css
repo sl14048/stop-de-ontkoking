@@ -140,3 +140,52 @@ p {
   text-align: center;
   font: open-sans, sans-serif;
 }
+#missie {
+  background-color: rgb(228, 206, 209);
+  height: auto;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+#missie h2 {
+  text-align: center;
+  font: montserrat, sans-serif;
+  padding: 20px 0 0 0;
+}
+.missi p {
+  margin: 15px 15px 15px 15px;
+  text-align: center;
+  font: open-sans, sans-serif;
+}
+.overzicht {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 20px 0;
+}
+.overzicht button {
+  background-color: #ecbbbb;
+  border: none;
+  padding: 15px 30px 15px 30px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+.overzicht button a {
+  text-decoration: none;
+  color: #333;
+}
+.overzicht button:hover {
+  background-color: #fcd7d7;
+  cursor: pointer;
+}
+footer {
+  background-color: #fcd7d7;
+  padding: 20px 0 20px 0;
+  margin-top: 20px;
+}
+footer p, footer a {
+  color: #333;
+  text-align: center;
+  font-family: open-sans, sans-serif;
+}
